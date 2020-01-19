@@ -1,0 +1,300 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.wrapper {
+  margin: 0 auto;
+  padding: 0;
+  padding-top: 70px;
+  max-width: 960px;
+}
+h1,
+h2 {
+  font-size: 24px;
+  color: #bfbfbf;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+.bdbn li:last-child{
+  border-bottom: none;
+}
+.menu {
+  font-size: 0;
+  margin: 0;
+}
+.menu>li {
+  border-left: 1px solid #3f4852;
+  border-right: 1px solid #3f4852;
+}
+.menu>li>a{
+  color: #bfbfbf;
+}
+.menu>li:first-child{
+border-radius: 3px 0 0 3px;
+}
+.menu>li:last-child{
+  border-radius: 0 3px 3px 0;
+}
+.menu li{
+  position: relative;
+  font-size: 15px;
+}
+.menu>li:first-child{
+  border-left: none;
+}
+.menu>li:last-child{
+  border-right: none;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.menu a {
+  font-weight: bold;
+  display: block;
+  padding: 15px;
+}
+.products-menu>li,
+.willage-menu>li {
+  display: inline-block;
+}
+.products-menu {
+  margin-bottom: 40px;
+  padding-left: 0;
+  font-size: 0;
+  list-style: none;
+  text-align: justify;
+  background-color: #2a3644;
+  border-radius: 3px;
+  }
+.products-menu:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+.menu li:hover .sub,
+.sub li:hover .sub-2,
+.sub-2 li:hover .sub-3{
+  display: block;
+}
+.sub a{
+  color: #2a3644;
+}
+.menu li:hover,
+.double li:hover a{
+  background-color:#3f4852;
+}
+.menu li:hover>a,
+.double li:hover>a
+{
+  color: #ff8505;
+}
+.sub{
+  padding-top: 5px;
+}
+.sub,
+.sub-2,
+.sub-3 {
+  display: none;
+  position: absolute;
+  width: 210px;
+  z-index: 1;
+}
+.sub-2{
+ left: 100%;
+ top: 0;
+ padding-left: 5px;
+}
+.sub-3{
+  right: 100%;
+  top: 0;
+  padding-right: 5px;
+}
+.sub li{
+  background-color: #d2d4d5;
+  border-bottom: 1px solid #b9bdc1;
+}
+.sub li:first-child{
+border-radius: 3px 3px 0 0;
+}
+.sub li:last-child{
+  border-radius: 0 0 3px 3px;
+  }
+.right{
+  right: 0;
+}
+.table {
+  margin-bottom: 40px;
+  width: 100%;
+  display: table;
+  border-radius: 3px;
+}
+.technics-menu>li{
+  text-align: center;
+  background-color: #2a3644;
+}
+.technics-menu .sub{
+  text-align: left;
+}
+.row {
+  display: table-row;
+}
+.cell {
+  display: table-cell;
+}
+.willage-menu {
+  float: left;
+  font-size: 0;
+  border-collapse: collapse;
+}
+a.home {
+  padding-left: 55px;
+  position: relative;
+}
+.home:before{
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 30px;
+  top: 15px;
+  background: url(../img/home\ copy.png) no-repeat -55px 0;
+}
+.double{
+  border-radius: 3px;
+  width: 420px;
+  background-color: #d2d4d5;
+  overflow: hidden;
+}
+.double ul{
+  float: left;
+  width: 210px;
+}
+.double ul:first-child{
+  box-sizing: border-box;
+  border-right: 1px solid #b9bdc1;
+}
+.social {
+  padding: 11px 30px;
+  float: right;
+}
+.thirt-menu {
+  background-color: #2a3644;
+}
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.social a {
+  padding: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(../img/home\ copy.png) no-repeat left top;
+}
+.social li {
+  margin-left: 30px;
+  display: inline-block;
+  padding: 0;
+}
+.social .fb {
+  width: 13px;
+  background-position: 0 0;
+}
+.social .in {
+  background-position: -33px 0;
+}
+.social .tw {
+  background-position: -11px 3px;
+}
+.social .fb:hover{
+  background-position: 0 -21px;
+}
+.social .in:hover{
+  background-position: -33px -21px;
+}
+.social .tw:hover{
+  background-position: -11px -18px;
+}
+.prosto-table,
+.style-table{
+  width: 100%;
+  border-radius: 3px;
+  overflow: hidden;
+  border-collapse: collapse;
+}
+.prosto-table th,
+.style-table b,
+.prosto-table td,
+.style-table i{
+  padding: 15px 20px;
+  font-size: 16px;
+  font-family: Arial;
+  box-sizing: border-box;
+}
+.table th,
+.style-table b{
+  color:#fff;
+  background-color: #2a3644;
+  border-right: 1px solid #3f4852;
+  border-bottom: 1px solid #3f4852;
+}
+.prosto-table td:first-child,
+.style-table i:first-child{
+  width: 6.3%;
+}
+.prosto-table td:nth-child(2),
+.style-table i:nth-child(2){
+  width: 52.7%;
+}
+.prosto-table td:nth-child(3),
+.style-table i:nth-child(3),
+.prosto-table td:nth-child(4),
+.style-table i:nth-child(4)
+.prosto-table td:nth-child(5),
+.style-table i:nth-child(5){
+  width: 13.6%;
+}
+.prosto-table tbody td,
+.style-table i.cell {
+  color: #2a3644;
+  font-style: normal;
+  border-bottom: 1px solid #c0c1c2;
+  border-right: 1px solid #c0c1c2;
+}
+.prosto-table tbody tr:nth-child(odd) td,
+.style-table .row:nth-child(even) i
+{
+  background-color: #f2f2f2;
+}
+.prosto-table tbody tr:nth-child(even) td,
+.style-table .row:nth-child(odd) i{
+  background-color: #e8e8e8;
+}
+.prosto-table tbody tr:hover td,
+.style-table .row:hover i{
+  background-color: #c0c1c2;
+  cursor: pointer;
+}
+.prosto-table tr:last-child td,
+.style-table p:last-child i{
+  border-bottom: none;
+}
+.prosto-table tr td:last-child,
+.style-table p i:last-child{
+border-right: none;
+}
+.prosto-table thead tr:first-child th:nth-child(2){
+  text-align: left;
+}
+.prosto-table tr td:first-child{
+  text-align: center;
+}
+.prosto-table tr td:nth-child(3),
+.prosto-table tr td:nth-child(4),
+.prosto-table tr td:nth-child(5){
+  text-align: right;
+}
